@@ -1,0 +1,74 @@
+.topic-2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+ }
+.topic-2 ul{
+   width: 75rem;
+}
+ .topic-2 ul li{
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+
+ .topic-2 ul h2{
+   font-size: 2rem;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-bottom: 5rem;
+ }
+
+
+@media screen and (max-width: 1280px){
+   main h1{
+      margin-bottom: 2rem;
+   }
+
+   .topic-2{
+      margin-top: 6.5rem;
+   }
+  .topic-2 ul{
+      width: 90%;
+  }
+   .topic-2 ul li{
+      margin-bottom: 15%;
+      grid-template-columns: auto;
+   }
+  
+   .topic-2 ul h2{
+      margin-bottom: 2.5rem;
+   }
+  
+}
+.lista-container {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   max-width: 600px;
+   width: 100%;
+   text-align: justify;
+   justify-content: center;
+   margin-left: 25%;
+
+}
+
+.lista-container h1 {
+   font-size: 24px;
+   margin-bottom: 20px;
+   color: #333;
+}
+
+.lista-problemas {
+   list-style-type: disc;
+   padding-left: 20px;
+}
+
+.lista-problemas li {
+   font-size: 16px;
+   margin-bottom: 10px;
+   color: #555;
+}

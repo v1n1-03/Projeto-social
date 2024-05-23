@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site projeto social.">
+    <meta name="author" content="Devcrud">
+    <title>Ossos de vidro</title>
+    <link rel="stylesheet" href="assets-2/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets-2/css/apps.css">
+    <link rel="stylesheet" href="assets-2/css/videos.css">
+    <link rel="stylesheet" href="assets-2/css/lite-yt-embed.css">
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="assets/css/leadmark.css">
+    <link rel="shortcut icon" href="assets-2/imgs/broken-bone.png" type="image/x-icon">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/logoredes.png" alt="logo curso redes">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Informações</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Second Navigation -->
+    
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="subtitle">Projeto Social Redes de Computadores</h1>
+            <h1 class="title">Osteogênese imperfeita</h1>
+        </div>  
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
+        </div>  
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+    <!-- End Of Page Header -->
+    
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">O que é?</h6>
+                    <p>A osteogênese imperfeita, também conhecida como "ossos de vidro", é uma condição genética rara que afeta a produção de colágeno, uma proteína essencial para a estruturação dos ossos e tecidos conjuntivos. Essa condição resulta em ossos frágeis e quebradiços, predispondo os indivíduos afetados a fraturas frequentes, mesmo com lesões leves ou sem motivo aparente. 
+                    </p>
+                    <img src="assets/imgs/about.jpg" alt="pessoa com a mão no joelho com o osso indicado" class="w-100 mt-3 shadow-sm">
+                </div>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/imgs/about-1.jpg" alt="desenho de pessoa com perna quebrada andando de muletas" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/imgs/about-2.jpg" alt="raio-x de uma mão" class="w-100 shadow-sm">
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p><b>Complicações:</b><br></p>
+                            <p>•Deformidades ósseas, como pernas arqueadas, braços e pernas curtas, e coluna vertebral curvada. <br></p>
+                            <p>•Crescimento ósseo lento. <br></p>
+                            <p>•Fragilidade dentária, com dentes quebradiços e propensão a cáries. <br></p>
+                            <p>•Problemas respiratórios, devido à fraqueza dos ossos da caixa torácica. <br></p>
+                            <p>•Problemas de audição, devido a deformidades nos ossos do ouvido médio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>              
+        </div>
+    </section>
+    <!-- End OF About Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h6 class="section-title text-center">Pode ajudar: </h6>
+            <h6 class="section-subtitle mb-5 text-center">Aplicativos, vídeos e utilidades.</h6>
+            <div class="filters">
+                <a href="#" data-filter=".new" class="active" onclick="app()">
+                    Nível de suporte
+                </a>
+                <a href="#" data-filter=".advertising" onclick="video()">
+                    Especialistas
+                </a>
+            </div>                                              
+        </div>        
+        <div class="topic-1" id="topic-1">
+            <h1 class="title">Graus da Osteogênese imperfeita:</h1>
+            <h5 class="space-down">Há quatro tipos principais de Osteogênese imperfeita: tipo I, tipo II, tipo III e tipo IV. A classificação é feita conforme com as manifestações clínicas dos pacientes.</h5>
+            <ul>
+                <li class="curiosity">
+                    <h4><b>Tipo I:</b></h4>
+                    <p>Este é o tipo mais moderada da doença. O paciente apresenta pouca incidência de fraturas e deformidades.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Tipo II:</b></h4>
+                    <p>O tipo II da patologia é fatal no período perinatal, uma vez que causa diversas fraturas antes e depois do parto, além da formação de deformidades graves.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Tipo III:</b></h4>
+                    <p>Tipo grave da doença. Pacientes acometidos por essa condição da Osteogênese imperfeita têm baixa estatura, várias fraturas e deformidades, face triangular e problemas no desenvolvimento dentário.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Tipo IV:</b></h4>
+                    <p>Neste caso, o paciente apresenta gravidade variável e manifestações clínicas diversas.</p>
+                </li>
+            </ul>
+
+            <h3 class="space-down">Sintomas da Osteogênese Imperfeita:</h3>
+            <ul>
+                <li class="curiosity">
+                    <h4><b>Fraturas frequentes:</b></h4>
+                    <p>Os ossos são frágeis e quebradiços, o que leva a fraturas frequentes. Essas fraturas podem ocorrer com lesões mínimas, movimentos bruscos ou até mesmo sem motivo aparente.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Deformidades ósseas:</b></h4>
+                    <p>Em casos graves, a osteogênese imperfeita pode causar deformidades ósseas, como pernas arqueadas, braços e pernas curtas, e curvatura da coluna vertebral (escoliose).</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Baixa estatura:</b></h4>
+                    <p>Muitas pessoas com osteogênese imperfeita têm estatura abaixo da média devido ao crescimento ósseo comprometido.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Fragilidade dentária:</b></h4>
+                    <p>Os dentes podem ser frágeis e quebradiços, o que aumenta o risco de cáries, perda dentária e outras complicações dentárias.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Problemas respiratórios:</b></h4>
+                    <p>A fragilidade dos ossos da caixa torácica pode levar a problemas respiratórios, como dificuldade para respirar e infecções respiratórias frequentes.</p>
+                </li>
+                <li class="curiosity">
+                    <h4><b>Problemas de audição:</b></h4>
+                    <p>Deformidades nos ossos do ouvido médio podem afetar a audição, levando a perda auditiva ou outros problemas auditivos.</p>
+                </li>
+            </ul>
+            <div class="mid">
+                <ul>
+                    <li class="curiosity">
+                        <h4><b>Hiperextensibilidade das articulações:</b></h4>
+                        <p>Algumas pessoas com osteogênese imperfeita podem apresentar articulações hiperextensíveis, o que significa que elas se estendem além do normal. Isso pode aumentar o risco de lesões articulares e problemas de estabilidade.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+        <div class="topic-1" id="topic-2">
+            <h1 class="title">O tratamento da osteogênese imperfeita (OI):</h1>
+            <h5 class="space-down">O tratamento é multidisciplinar e visa melhorar a qualidade de vida do paciente, reduzir o risco de fraturas e prevenir complicações. Aqui estão alguns dos principais tratamentos utilizados para gerenciar a OI:</h5>
+                <ul>
+                    <li class="curiosity">
+                        <h4><b>Medicamentos para fortalecimento dos ossos:</b></h4>
+                        <p>Alguns medicamentos podem ser prescritos para aumentar a densidade mineral óssea e reduzir o risco de fraturas. Isso pode incluir bisfosfonatos, que ajudam a retardar a perda óssea, e teriparatida, que estimula a formação óssea.</p>
+                    </li>
+                    <li class="curiosity">
+                        <h4><b>Fisioterapia:</b></h4>
+                        <p>A fisioterapia é frequentemente recomendada para fortalecer os músculos e melhorar a mobilidade. Exercícios de fortalecimento, alongamento e equilíbrio podem ajudar a prevenir quedas e lesões.</p>
+                    </li>
+                    <li class="curiosity">
+                        <h4><b>Uso de órteses:</b></h4>
+                        <p>Órteses, como talas ou aparelhos ortopédicos, podem ser usadas para fornecer suporte adicional aos ossos e articulações, reduzir o risco de fraturas e melhorar a função motora.</p>
+                    </li>
+                    <li class="curiosity">
+                        <h4><b>Cirurgia ortopédica:</b></h4>
+                        <p>Em casos graves de deformidades ósseas ou fraturas recorrentes, a cirurgia ortopédica pode ser necessária para corrigir a estrutura óssea, estabilizar as articulações ou implantar hastes intramedulares para fortalecer os ossos longos.</p>
+                    </li>
+                </ul>
+                <div class="mid">
+                    <ul>
+                        <li class="curiosity">
+                            <h4><b>Tratamento dentário:</b></h4>
+                            <p>O tratamento odontológico é importante para cuidar da fragilidade dentária associada à OI. Isso pode incluir obturações, tratamento de canal, extrações dentárias e uso de próteses dentárias.</p>
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+    <!-- Blog Section -->
+    <section class="section" id="blog">
+        <div class="container">
+            <h6 class="section-title mb-0 text-center">Artigos úteis:</h6>
+            <h6 class="section-subtitle mb-5 text-center">Aprenda mais sobre o assunto.</h6>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 mb-4">
+                        <img src="assets-2/imgs/blog.jpg" alt="Thais Pessanha andando de skate" class="card-img-top w-100">
+                        <div class="card-body">                         
+                            <h6 class="card-title">Com 'ossos de vidro', ela sofreu 300 fraturas e pratica esportes radicais</h6>
+                            <p>O diagnóstico de osteogênese imperfeita veio assim que a carioca Thais Pessanha, 41 anos, nasceu.</p>
+                            <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2024/01/02/mulher-com-ossos-de-vidro-ja-teve-300-fraturas-e-pratica-esporte-radical.htm" class="small text-muted" target="_blank">Go To The Article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 mb-4">
+                        <img src="assets-2/imgs/blog-2.jpg" alt="pessoa com mão engessada" class="card-img-top w-100">
+                        <div class="card-body">                         
+                            <h6 class="card-title">Osteogênese imperfeita: entenda a doença conhecida como “ossos de vidro”</h5>
+                            <p>Considerada rara, a síndrome não tem cura, mas tem tratamento.</p>
+                            <a href="https://www.cnnbrasil.com.br/saude/osteogenese-imperfeita-entenda-a-doenca-conhecida-como-ossos-de-vidro/" class="small text-muted" target="_blank">Go To The Article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 mb-4">
+                        <img src="assets-2/imgs/blog-1.jpg" alt="Vitoria Bueno tocando violino" class="card-img-top w-100">
+                        <div class="card-body">                         
+                            <h6 class="card-title">Vitoria Bueno fala sobre cirurgia e cita Dia Internacional da Osteogênese Imperfeita</h6>
+                            <p>Vitoria, de 11 anos, mora há pouco mais de oito anos em Boston, nos Estados Unidos.</p>
+                            <a href="https://www.jornalcidade.net/rc/vitoria-bueno-fala-sobre-cirurgia-e-cita-dia-internacional-da-osteogenese-imperfeita/261839/" class="small text-muted" target="_blank">Go To The Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Blog Section -->
+
+   
+            <!-- Page Footer -->
+            <footer class="mt-5 py-4 border-top border-secondary">
+                <p class="mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, LeadMark. All rights reserved </p>     
+                <a href="https://www.flaticon.com/free-icons/fracture" title="fracture icons">Fracture icons created by Freepik - Flaticon</a>
+            </footer>
+            <!-- End of Page Footer -->  
+        </div>
+    </section>
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- Isotope -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+
+    <!-- LeadMark js -->
+    <script src="assets/js/leadmark.js"></script>
+
+    <script src="assets-2/js/display.js"></script>
+
+    <script src="assets-2/js/lite-yt-embed.js"></script>
+</body>
+</html>

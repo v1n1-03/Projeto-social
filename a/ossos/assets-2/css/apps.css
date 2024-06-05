@@ -1,136 +1,185 @@
-.topic-1 h1{
+.topic-1 h1 {
   margin-bottom: 3rem;
   text-align: center;
 }
 
- .topic-1{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   text-align: justify;
-   max-width: 60%;
- }
+.topic-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  max-width: 60%;
+}
 
- .topic-1 ul{
-   width: 81.25rem;
-   display: grid;
-   grid-template-columns: auto auto;
-   gap: 4.375rem;
- }
+.topic-1 ul {
+  width: 81.25rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 4.375rem;
+}
 
- .topic-1 ul li{
+.topic-1 ul li {
   width: 560px;
- }
- .topic-1 ul h2{
-   text-align: center;
-   font-size: 1.875rem;
-   font-family: "Montserrat", sans-serif;
-   font-optical-sizing: auto;
-   font-weight: 400;
-   font-style: normal;
-   margin-bottom: 2rem;
- }
+}
 
- .topic-1 ul img{
-   width: 25%;
- }
+.topic-1 ul h2 {
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 2rem;
+}
 
- .app{
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
+.topic-1 ul img {
+  width: 25%;
+}
 
- .download{
-   font-size: 1.25rem;
-   margin: 0 0.313rem 0 1.25rem;
-   font-family: "Inconsolata", monospace;
-   font-optical-sizing: auto;
-   font-weight: 400;
-   font-style: normal;
-   font-variation-settings: "wdth" 100;
- }
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .topic-1 ul a{
-   color: #a200ff;
-   padding: 0.625rem;
-   font-size: 1.563rem;
- }
+.download {
+  font-size: 1.25rem;
+  margin: 0 0.313rem 0 1.25rem;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
- #inherit ul{
+.topic-1 ul a {
+  color: #a200ff;
+  padding: 0.625rem;
+  font-size: 1.563rem;
+}
+
+#inherit ul {
   list-style: inherit;
- }
+}
 
- a:hover{
-   opacity: 0.8;
- }
+a:hover {
+  opacity: 0.8;
+}
 
- .topic-3{
-    text-align: center;
- }
+.topic-3 {
+  text-align: center;
+}
 
- .space-down{
+.space-down {
   margin-bottom: 4rem;
   text-align: center;
- }
+}
 
- .curiosity {
+.curiosity {
   background-color: #d6d8db;
   border-radius: 12px;
   padding: 30px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease; /* Efeito de hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  /* Efeito de hover */
+}
+
+.box-img {
+  display: flex;
+  text-align: justify;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .curiosity:hover {
-  transform: translateY(-5px); /* Eleva o card ao passar o mouse */
+  transform: translateY(-5px);
+  /* Eleva o card ao passar o mouse */
 }
 
-.mid ul{
+#mid {
+  text-align: justify;
+  position: static;
+  width: 90rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid ul {
   margin-top: 3.325rem;
   align-items: center;
   justify-content: center;
-}  
+}
 
-.mid ul li{
+.mid ul li {
   width: 560px;
 }
-@media screen and (max-width: 1280px){
-   .topic-1 ul{
-      width: 95%;
-      grid-template-columns: auto;
-   }
 
-   .topic-1{
+.curiosity img {
+  width: 15rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .topic-1 ul {
+    width: 95%;
+    grid-template-columns: auto;
+  }
+
+  .topic-1 {
     max-width: 93%;
-   }
-   .topic-1 ul li{
-    width: 100%;
-   }
+  }
 
-   .topic-1 ul h2{
+  .topic-1 ul li {
+    width: 100%;
+  }
+
+  .topic-1 ul h2 {
     font-size: 1.5rem;
     margin-bottom: 9%;
-   }
+  }
 
-   .topic-1 ul h3{
+  .topic-1 ul h3 {
     font-size: 1.35rem;
     margin-bottom: 8%;
-   }
+  }
 
-   .topic-1 ul img{
+  .topic-1 ul img {
     width: 23%;
-   }
-   
-   .topic-3 img{
-    width: 80%;
- }
-   .navbar-brand img{
-    width: 70px;
- }
+  }
 
- .reto ul li{
-  max-width: 95%;
- }
+  .topic-3 img {
+    width: 80%;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+  }
+
+  .reto ul li {
+    max-width: 95%;
+  }
+
+  #mid {
+    width: 90%;
+  }
+
+  .curiosity img {
+    width: 9rem;
+  }
+
+  .box-img {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .reto ul li {
+    max-width: 90%;
+  }
+
+  #mid {
+    width: 90%;
+  }
 }

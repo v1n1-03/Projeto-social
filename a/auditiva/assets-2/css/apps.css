@@ -78,6 +78,10 @@
     text-align: center;
  }
 
+ .topic-3 img{
+  width: 40%;
+}
+
  #mid{
   text-align: justify;
   position: static;
@@ -120,7 +124,7 @@
    }
    
    .topic-3 img{
-    width: 80%;
+    width: 75%;
  }
    .navbar-brand img{
     width: 70px;
